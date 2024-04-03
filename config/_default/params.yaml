@@ -14,10 +14,10 @@ marketing:
     site_type: Person
     local_business_type: ''
     org_name: ''
-    description: 'A highly-customizable Hugo link in bio theme powered by Wowchemy website builder.'
-    twitter: 'GetResearchDev'
+    description: 'Personal website of Lukas Burgholzer.'
+    twitter: 'BurgholzerLukas'
   analytics:
-    google_analytics: ''
+    google_analytics: '250102556'
     baidu_tongji: ''
     plausible: ''
     fathom: ''
@@ -35,9 +35,10 @@ header:
 # Site footer
 footer:
   copyright:
-    notice: '© {year} Me'
+    notice: '© {year} Lukas Burgholzer'
 
 # Localization
 locale:
-  date_format: 'Jan 2, 2006'
-  time_format: '3:04 PM'
+  date_format: '02 Jan 06'
+  time_format: '15:04 MST'
+  address_format: de

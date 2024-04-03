@@ -2,7 +2,6 @@
 organizations:
   - name: Chair for Design Automation, Technical University of Munich
     url: https://www.cda.cit.tum.de/
-name_pronunciation: Chien Shiung Wu
 title: Lukas Burgholzer
 role: Postdoctoral Researcher in Quantum Computing
 bio: Lukas Burgholzer is a postdoctoral researcher at the Technical University
@@ -11,44 +10,8 @@ bio: Lukas Burgholzer is a postdoctoral researcher at the Technical University
 interests:
   - Quantum-Computing
   - Design-Automation
-  - Software
-social:
-  - display:
-      header: true
-    link: https://github.com/burgholzer
-    icon_pack: fab
-    icon: github
-    label: Personal GitHub
-  - display:
-      header: true
-    link: https://www.linkedin.com/in/lukas-burgholzer-7a1741a7/
-    icon_pack: fab
-    icon: linkedin
-    label: LinkedIn
-  - display:
-      header: true
-    link: https://x.com/BurgholzerLukas
-    icon_pack: fab
-    icon: x
-    label: X (Twitter)
-  - display:
-      header: true
-    link: https://scholar.google.com/citations?user=MxVlYjcAAAAJ&hl=en
-    icon_pack: fab
-    icon: google-scholar
-    label: Google Scholar Profile
-  - display:
-      header: true
-    link: https://orcid.org/0000-0003-4699-1316
-    icon_pack: fab
-    icon: orcid
-    label: ORCID
-  - display:
-      header: true
-    link: https://discordapp.com/users/burgberg
-    icon_pack: fab
-    icon: discord
-    label: Reach out via Discord
+  - Software-Engineering
+  - Open-Source-Development
 education:
   courses:
     - course: Doctorate Degreee (PhD) in Computer Science
@@ -66,25 +29,27 @@ education:
 superuser: true
 profiles:
   - icon: at-symbol
-    url: mailto:your-email@example.com
+    url: mailto:lukas.burgholzer@tum.de
     label: E-mail Me
+  - icon: brands/github
+    url: https://github.com/burgholzer
   - icon: brands/x
-    url: https://twitter.com/GetResearchDev
-  - icon: brands/instagram
-    url: https://www.instagram.com/
+    url: https://twitter.com/BurgholzerLukas
   - icon: brands/linkedin
-    url: https://www.linkedin.com/
+    url: https://www.linkedin.com/in/lukas-burgholzer-7a1741a7/
   - icon: brands/google-scholar
-    url: https://scholar.google.com/citations?user=mG4imMEAAAAJ
+    url: https://scholar.google.com/citations?user=MxVlYjcAAAAJ
   - icon: brands/orcid
-    url: https://www.orcid.com/
+    url: https://orcid.org/0000-0003-4699-1316
+  - icon: brands/discord
+    url: https://discordapp.com/users/burgberg
   - icon: academicons/cv
     url: uploads/resume.pdf
     label: Download my resume
 status:
-  icon: ☕️
-last_name: Chien
-first_name: Shiung Wu
+  icon: ⚛️
+last_name: Burgholzer
+first_name: Lukas
 email: lukas.burgholzer@tum.de
 ---
 Lukas Burgholzer is a postdoctoral researcher at the Technical University of Munich's Chair for Design Automation. 
