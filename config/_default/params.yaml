@@ -49,3 +49,6 @@ features:
     enable: true
   privacy_pack:
     enable: true
+  avatar:
+    gravatar: true
+    shape: circle
