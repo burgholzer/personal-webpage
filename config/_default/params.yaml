@@ -51,4 +51,3 @@ features:
     enable: true
   avatar:
     gravatar: true
-    shape: circle
