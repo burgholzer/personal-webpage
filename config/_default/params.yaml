@@ -42,3 +42,8 @@ locale:
   date_format: '02 Jan 06'
   time_format: '15:04 MST'
   address_format: de
+
+# Features
+features:
+  math:
+    enable: true
