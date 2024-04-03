@@ -22,13 +22,13 @@ sections:
       # Need a custom icon?
       # Add an SVG image to the `assets/media/icons/` folder and reference it in the `icon` field below
       buttons:
-        - text: Check out all of my publications
+        - text: Check out a complete list of publications
           icon: custom/tum
           url: https://www.cda.cit.tum.de/team/burgholzer/
         - text: Check out the Munich Quantum Toolkit (MQT)
           icon: custom/mqt
           url: https://mqt.rtfd.io
-        - text: Connect with me on LinkedIn
+        - text: Connect on LinkedIn
           icon: brands/linkedin
           url: https://www.linkedin.com/in/lukas-burgholzer-7a1741a7/
 ---
