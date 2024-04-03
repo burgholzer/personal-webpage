@@ -22,10 +22,10 @@ sections:
       # Need a custom icon?
       # Add an SVG image to the `assets/media/icons/` folder and reference it in the `icon` field below
       buttons:
-        - text: Check out a complete list of publications
+        - text: List of Publications
           icon: custom/tum
           url: https://www.cda.cit.tum.de/team/burgholzer/
-        - text: Check out the Munich Quantum Toolkit (MQT)
+        - text: Munich Quantum Toolkit (MQT)
           icon: custom/mqt
           url: https://mqt.rtfd.io
         - text: Connect on LinkedIn
