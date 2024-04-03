@@ -47,3 +47,5 @@ locale:
 features:
   math:
     enable: true
+  privacy_pack:
+    enable: true
