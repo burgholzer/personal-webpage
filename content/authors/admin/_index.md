@@ -1,7 +1,4 @@
 ---
-organizations:
-  - name: Chair for Design Automation, Technical University of Munich
-    url: https://www.cda.cit.tum.de/
 title: Lukas Burgholzer
 role: Postdoctoral Researcher in Quantum Computing
 bio: Lukas Burgholzer is a postdoctoral researcher at the Technical University
@@ -12,9 +9,12 @@ interests:
   - Design-Automation
   - Software-Engineering
   - Open-Source-Development
+organizations:
+  - name: Chair for Design Automation, Technical University of Munich
+    url: https://www.cda.cit.tum.de/
 education:
   courses:
-    - course: Doctorate Degreee (PhD) in Computer Science
+    - course: Doctorate Degree (PhD) in Computer Science
       institution: Johannes Kepler University Linz
       year: 2023
     - course: Bachelor's Degree (BSc) in Computer Science
