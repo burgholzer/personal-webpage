@@ -1,6 +1,6 @@
 ---
 title: Lukas Burgholzer
-role: Postdoctoral Researcher in Quantum Computing
+role: Co-Founder & CTO @ MQSC | Postdoctoral Researcher in Quantum Computing @ TUM
 bio: Lukas Burgholzer is a postdoctoral researcher at the Technical University
   of Munich working on design automation tools and software for quantum
   computing.
@@ -10,6 +10,8 @@ interests:
   - Software-Engineering
   - Open-Source-Development
 organizations:
+  - name: Munich Quantum Software Company GmbH
+    url: https://munichquantum.software
   - name: Chair for Design Automation, Technical University of Munich
     url: https://www.cda.cit.tum.de/
 education:
@@ -52,7 +54,13 @@ last_name: Burgholzer
 first_name: Lukas
 email: lukas.burgholzer@tum.de
 ---
-Lukas Burgholzer is a postdoctoral researcher at the Technical University of Munich's Chair for Design Automation. 
-He received his PhD from JKU Linz in Austria under the supervision of Prof. Dr. Robert Wille. 
-He is developing design automation tools and software for quantum computing.
-Specifically, his research mainly focuses on classical simulation, compilation, and verification of quantum circuits.
+Lukas Burgholzer works as a research scientist at the Technical University of
+Munich in the Chair for Design Automation of Prof. Wille and as CTO of the
+Munich Quantum Software Company. He received his PhD from JKU Linz, Austria, in
+2023 working as part of the Institute for Integrated Circuits. His research
+focuses on design automation tools and software for quantum computing. In these
+areas, he has published more than 60 papers in international conferences and
+journals. He is the chief developer of the Munich Quantum Toolkit (MQT) as well
+as one of the technical leads of the Munich Quantum Software Stack (MQSS)
+project. For his research, he was awarded the EDAA Outstanding Dissertation
+Award, the Heinz Zemanek Prize, and more.
