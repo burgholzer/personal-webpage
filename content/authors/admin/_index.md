@@ -1,9 +1,9 @@
 ---
 title: Lukas Burgholzer
-role: Co-Founder & CTO @ MQSC | Postdoctoral Researcher in Quantum Computing @ TUM
-bio: Lukas Burgholzer is a postdoctoral researcher at the Technical University
-  of Munich working on design automation tools and software for quantum
-  computing.
+role: Co-Founder & CTO @ MQSC | Senior Researcher in Quantum Computing @ TUM
+bio: Lukas Burgholzer is CTO and co-founder of MQSC and
+  Senior Researcher at the Technical University of Munich’s Chair
+  for Design Automation working on Software for Quantum Computing.
 interests:
   - Quantum-Computing
   - Design-Automation
@@ -11,7 +11,7 @@ interests:
   - Open-Source-Development
 organizations:
   - name: Munich Quantum Software Company GmbH
-    url: https://munichquantum.software
+    url: https://mq.sc
   - name: Chair for Design Automation, Technical University of Munich
     url: https://www.cda.cit.tum.de/
 education:
@@ -31,7 +31,7 @@ education:
 superuser: true
 profiles:
   - icon: at-symbol
-    url: mailto:lukas.burgholzer@tum.de
+    url: mailto:lukas@mq.sc
     label: E-mail Me
   - icon: brands/github
     url: https://github.com/burgholzer
@@ -52,15 +52,13 @@ status:
   icon: ⚛️
 last_name: Burgholzer
 first_name: Lukas
-email: lukas.burgholzer@tum.de
+email: lukas@mq.sc
 ---
-Lukas Burgholzer works as a research scientist at the Technical University of
-Munich in the Chair for Design Automation of Prof. Wille and as CTO of the
-Munich Quantum Software Company. He received his PhD from JKU Linz, Austria, in
-2023 working as part of the Institute for Integrated Circuits. His research
-focuses on design automation tools and software for quantum computing. In these
-areas, he has published more than 60 papers in international conferences and
-journals. He is the chief developer of the Munich Quantum Toolkit (MQT) as well
-as one of the technical leads of the Munich Quantum Software Stack (MQSS)
-project. For his research, he was awarded the EDAA Outstanding Dissertation
-Award, the Heinz Zemanek Prize, and more.
+Lukas Burgholzer is CTO and co-founder of MQSC and a Senior Researcher at the Technical University of Munich’s Chair
+for Design Automation. He received his PhD in Computer Science from Johannes Kepler University Linz in 2023. His
+work spans the quantum computing software stack, from simulation, compilation, and verification to HPCQC
+integration. He oversees the development of the Munich Quantum Toolkit (MQT) and the Munich Quantum Software Stack
+(MQSS), and is a lead developer and maintainer of the Quantum Device Management Interface (QDMI), an emerging de
+facto standard for interoperable quantum-hardware integration. He has published 80+ papers, with over 2.6k citations
+and an h-index of 30. His work has received, among others, the EDAA Outstanding Dissertation Award and the Heinz
+Zemanek Prize.
