@@ -1,0 +1,7 @@
+.idea/
+.hugo_build.lock
+public/
+resources/
+node_modules/
+hugo_stats.json
+assets/jsconfig.json
