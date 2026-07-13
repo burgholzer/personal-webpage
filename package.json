@@ -1,0 +1,11 @@
+{
+  "private": true,
+  "engines": {
+    "node": ">=22"
+  },
+  "devDependencies": {
+    "@tailwindcss/cli": "^4.3.0",
+    "@tailwindcss/typography": "^0.5.19",
+    "tailwindcss": "^4.3.0"
+  }
+}

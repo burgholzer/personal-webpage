@@ -6,3 +6,30 @@
 .blox-resume-biography .network-icon li {
     margin-right: 2rem;
 }
+
+#page-bg {
+    --background-brightness: 1;
+    --background-saturation: 1;
+    background-color: #f8fafc;
+    filter: brightness(var(--background-brightness)) saturate(var(--background-saturation)) hue-rotate(0deg);
+    will-change: filter;
+    animation: page-background-hue 5s linear infinite;
+}
+
+html.dark #page-bg {
+    --background-brightness: 0.32;
+    --background-saturation: 1.35;
+    background-color: #17181c;
+}
+
+@keyframes page-background-hue {
+    to {
+        filter: brightness(var(--background-brightness)) saturate(var(--background-saturation)) hue-rotate(360deg);
+    }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    #page-bg {
+        animation: none;
+    }
+}
