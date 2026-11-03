@@ -31,7 +31,7 @@ permalinks:
   authors: '/author/:slug/'
 disableAliases: true
 outputs:
-  home: [HTML, RSS, headers, redirects]
+  home: [HTML, RSS]
   section: [HTML, RSS]
 imaging:
   resampleFilter: Lanczos
@@ -46,5 +46,7 @@ markup:
     lineNos: false
 security:
   _merge: deep
+  exec:
+    allow: ['^(dart-)?sass$', '^go$', '^git$', '^node$', '^postcss$', '^tailwindcss$']
 sitemap:
   _merge: deep

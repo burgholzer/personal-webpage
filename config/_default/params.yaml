@@ -1,53 +1,17 @@
-# SITE SETUP
-# Guide: https://docs.hugoblox.com/tutorial/
-# Documentation: https://docs.hugoblox.com/
-# This file is formatted using YAML syntax - learn more at https://learnxinyminutes.com/docs/yaml/
-
-# Appearance
-appearance:
-  mode: system
-  color: blue
-
-# SEO
-marketing:
-  seo:
-    site_type: Person
-    local_business_type: ''
-    org_name: ''
+hugoblox:
+  identity:
+    type: Person
     description: 'Postdoctoral Researcher at TUM.'
-    twitter: 'BurgholzerLukas'
+    social:
+      twitter: BurgholzerLukas
   analytics:
-    google_analytics: '250102556'
-    baidu_tongji: ''
-    plausible: ''
-    fathom: ''
-    pirsch: ''
+    google:
+      measurement_id: '250102556'
   verification:
     google: '1UxrdQRFp6YpCZYRbge2JcUjzy4RmfbzL_orIbGfrO4'
-    baidu: ''
-
-# Site header
-header:
-  navbar:
-    enable: true
+  header:
     block: floating-theme-toggler
-
-# Site footer
-footer:
   copyright:
     notice: '© {year} Lukas Burgholzer'
-
-# Localization
-locale:
-  date_format: '02 Jan 06'
-  time_format: '15:04 MST'
-  address_format: de
-
-# Features
-features:
-  math:
-    enable: true
-  privacy_pack:
-    enable: true
-  avatar:
-    gravatar: true
+    license:
+      type: custom

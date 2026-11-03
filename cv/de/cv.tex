@@ -1,0 +1,160 @@
+%% start of file `template.tex'.
+%% Copyright 2006-2013 Xavier Danaux (xdanaux@gmail.com).
+%
+% This work may be distributed and/or modified under the
+% conditions of the LaTeX Project Public License version 1.3c,
+% available at http://www.latex-project.org/lppl/.
+
+
+\documentclass[10pt,a4paper, roman]{moderncv}        % possible options include font size ('10pt', '11pt' and '12pt'), paper size ('a4paper', 'letterpaper', 'a5paper', 'legalpaper', 'executivepaper' and 'landscape') and font family ('sans' and 'roman')
+
+% moderncv themes
+\moderncvstyle{classic}                             % style options are 'casual' (default), 'classic', 'oldstyle' and 'banking'
+\moderncvcolor{blue}                               % color options 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
+%\renewcommand{\familydefault}{\sfdefault}         % to set the default font; use '\sfdefault' for the default sans serif font, '\rmdefault' for the default roman one, or any tex font name
+%\nopagenumbers{}                                  % uncomment to suppress automatic page numbering for CVs longer than one page
+
+% character encoding
+\usepackage[utf8]{inputenc}                       % if you are not using xelatex ou lualatex, replace by the encoding you are using
+\usepackage{fontawesome}
+
+% adjust the page margins
+\usepackage[scale=0.88]{geometry}
+\setlength{\hintscolumnwidth}{2.1cm}                % if you want to change the width of the column with the dates
+%\setlength{\makecvtitlenamewidth}{10cm}           % for the 'classic' style, if you want to force the width allocated to your name and avoid line breaks. be careful though, the length is normally calculated to avoid any overlap with your personal info; use this at your own typographical risks...
+
+% personal data
+\name{Lukas}{Burgholzer}
+\title{Lebenslauf}                               % optional, remove / comment the line if not wanted
+\phone[mobile]{+43~664~9754740}                   % optional, remove / comment the line if not wanted
+%\phone[fixed]{+43~732~2468~9536}                    % optional, remove / comment the line if not wanted
+\email{burgholzer@me.com}                               % optional, remove / comment the line if not wanted
+\homepage{burgholzer.me}                         % optional, remove / comment the line if not wanted
+\social[github]{burgholzer}
+\social[linkedin][https://www.linkedin.com/in/lukas-burgholzer-7a1741a7/]{Lukas Burgholzer}
+\extrainfo{{\small\upshape\faBirthdayCake}~22. Januar 1994}
+\photo[64pt][0.4pt]{foto}                       % optional, remove / comment the line if not wanted; '64pt' is the height the picture must be resized to, 0.4pt is the thickness of the frame around it (put it to 0pt for no frame) and 'picture' is the name of the picture file
+
+\usepackage{csquotes}
+\usepackage[
+	backend=biber,
+	style=ieee,
+	sortcites=true,
+	sorting=ynt,
+	url=true,
+	eprint=true,
+	giveninits=true,
+	minnames=3,
+	maxnames=6
+]{biblatex}
+\addbibresource{lit_header.bib}
+\addbibresource{library.bib}
+%\renewcommand*{\bibfont}{\normalfont\scriptsize}
+
+\AtEveryBibitem{% Clean up the bibtex rather than editing it
+	\clearname{editor}%
+	\clearfield{series}%
+	\clearfield{isbn}%
+	\clearfield{issn}%
+	\clearfield{day}%
+	\clearfield{month}%
+	\clearfield{place}%
+	\clearfield{pages}%
+	\clearfield{issue}%
+	\clearfield{volume}%
+%	\clearfield{doi}%
+	\clearlist{location}%
+	\clearfield{eventtitle}%
+	\ifentrytype{inproceedings}{%
+		\clearlist{publisher}
+	}{}%
+	\ifentrytype{software}{%
+	}{%
+		\clearfield{url}%
+		\clearfield{urlyear}%
+	}%
+}
+
+\pdfinfo{
+	/Title (Lebenslauf - Lukas Burgholzer)
+	/Author (Lukas Burgholzer)
+	/Subject (Lebenslauf)
+	/Keywords (CV, Résumé, Burgholzer)
+}
+
+\begin{document}
+
+\makecvtitle
+
+\section{Profil}
+Quanten-Software-Forscher, technischer Leiter und CTO mit Schwerpunkt auf dem gesamten Quanten-Software-Stack und HPCQC-Integration.
+Ich verantworte die Entwicklung des \emph{Munich Quantum Toolkit (MQT)} und des \emph{Munich Quantum Software Stack (MQSS)} einschließlich des Quantum Device Management Interface (QDMI) und habe MQSC mitgegründet.
+Stand November 2026 wurden meine Arbeiten über \textbf{3.000-mal zitiert} (\textbf{h-Index 31}); MQT verzeichnet \textbf{4,6 Millionen PyPI-Downloads} und \textbf{1,4k GitHub-Stars}.
+
+\section{Berufserfahrung}
+\cventry{2025--heute}{CTO und Gründungsmitglied von MQSC}{Bootstrapped Deep-Tech-Startup, das Quanten-Software-Forschung in industrielle Produkte überführt}{\url{https://mq.sc}}{}{}
+\cventry{2024--heute}{Technischer Leiter des Munich Quantum Software Stack (MQSS)}{Initiative des Munich Quantum Valley mit über 400 Forschenden; leitender Entwickler und Maintainer von QDMI, einem sich etablierenden De-facto-Standard für interoperable Quantenhardware-Integration in HPCQC-Software-Stacks}{\url{https://github.com/Munich-Quantum-Software-Stack/QDMI}}{}{}
+\cventry{2023--heute}{Leitender Entwickler des Munich Quantum Toolkit (MQT)}{Open-Source-Ökosystem mit Werkzeugen für den gesamten Quanten-Software-Stack, einschließlich Simulation, Kompilierung und Verifikation; 4,6 Mio. PyPI-Downloads und 1,4k GitHub-Stars (November 2026)}{\url{https://mqt.readthedocs.io}}{}{}
+\cventry{2023--heute}{Senior Researcher}{Technische Universität München}{Deutschland}{}{Lehrstuhl für Design Automation. Betreuung von 8+ Doktorand:innen; Initiierung und gemeinsame Entwicklung von Lehrveranstaltungen, übernommen von der DTU und der Northwestern University.}
+\cventry{2019--2023}{Doktorand}{Johannes Kepler Universität Linz}{Österreich}{}{LIT Secure and Correct Systems Lab. Institut für Integrierte Schaltungen.}
+\cventry{2018--2019}{Wissenschaftlicher Mitarbeiter}{MathConsult GmbH}{Linz, Österreich}{}{}
+
+\section{Ausbildung}
+\cventry{2019--2023}{Doktoratsstudium der Informatik}{Johannes Kepler Universität Linz}{Österreich}{}{Betreuer: Univ.-Prof. Dr. Robert Wille (Institut für Integrierte Schaltungen), \textit{mit Auszeichnung bestanden}}
+\cventry{2017--2018}{Masterstudium der Industriemathematik}{Johannes Kepler Universität Linz}{Österreich}{}{\textit{mit Auszeichnung bestanden}}
+\cventry{2016--2019}{Bachelorstudium der Informatik}{Johannes Kepler Universität Linz}{Österreich}{}{\textit{mit Auszeichnung bestanden}}  % arguments 3 to 6 can be left empty
+\cventry{2013--2016}{Bachelorstudium der Mathematik}{Johannes Kepler Universität Linz}{Österreich}{}{\textit{mit Auszeichnung bestanden}}
+
+\section{Kenntnisse}
+\cvitem{Sprachen}{Deutsch (Muttersprache), Englisch (fließend)}
+\cvitem{Quanten-Software}{Werkzeuge für den gesamten Quanten-Software-Stack: Simulation, Kompilierung, Verifikation, Optimierung, Mapping und hybride Ausführung}
+\cvitem{Algorithmen}{Entscheidungsdiagramme, automatisierte und optimierte Kompilierung sowie skalierbare Verifikation}
+\cvitem{Entwicklung}{Modernes C\texttt{++}, Python, Git, CMake und CI/CD}
+\cvitem{HPCQC und Führung}{HPCQC-Integration und QDMI; technische Leitung von MQT, MQSS und MQSC; Betreuung von Doktorand:innen}
+
+\clearpage
+\section{Auszeichnungen und ausgewählte Erfolge}
+\cvitem{2026}{EuroTech Rising Stars Award, Kategorie Rising Innovation Stars, EuroTech Universities Alliance.}
+\cvitem{2026}{Hightech-Nachwuchspreis des Bayerischen Staatsministeriums für Wissenschaft und Kunst im Rahmen der Hightech-Preise Bayern für Forschungsleistungen mit besonders hohem Innovationspotenzial und aussichtsreicher praktischer Umsetzung.}
+\cvitem{2025}{EDAA Outstanding Dissertation Award, European Design and Automation Association.}
+\cvitem{2024}{ACM SIGDA Outstanding PhD Dissertation Award.}
+\cvitem{2024}{Nominierung für den GI Dissertationspreis der Gesellschaft für Informatik, der Österreichischen Computer Gesellschaft und der Schweizer Informatik Gesellschaft.}
+\cvitem{2024}{Heinz Zemanek Preis, Österreichische Computer Gesellschaft.}
+\cvitem{2024}{Best Poster Prize des PhD Forums, Design, Automation and Test in Europe (DATE).}
+\cvitem{2023}{Nominierung für den Best Paper Award der Asia and South Pacific Design Automation Conference.}
+\cvitem{2022, 2023}{Mentor, NYUAD International Hackathon for Social Good in the Arab World (Quantencomputing).}
+\cvitem{2022}{JKU Young Researcher's Award, Johannes Kepler Universität Linz.}
+%\cvitem{2021}{Became IBM Certified Associate Developer for \enquote{Quantum Computation using Qiskit v0.2X}}
+%\cvitem{2021}{Received a \enquote{Certificate of Quantum Excellence} from the 2021 Qiskit Global Summer School}
+%\cvitem{2021}{Attained best possible score in the IBM Quantum Challenge 2021 ($>1400$ participants)}
+%\cvitem{2021}{Top $40$ at the Xanadu QHack 2021 QML Challenge ($>400$ teams)}
+%\cvitem{2020}{$5^\mathit{th}$ Place at the IBM Quantum Challenge Fall 2020 ($>1000$ participants)}
+%\cvitem{2020}{Invitation to the IBM Qiskit Camp 2020, Yorktown Heights, NY, United States}
+%\cvitem{2020}{Acceptance into the DAC Young Student Fellow Program}
+%\cvitem{2019}{Invitation to the IBM Qiskit Camp Asia 2019, Tokyo, Japan}
+%\cvitem{2019}{$3^\mathit{rd}$ Place at the IBM Quantum Challenge 2019}
+
+\section{Forschung und Publikationen}
+Quantencomputer entwickeln sich rasant, doch die zugehörige Software hinkt hinterher. In meiner Forschung schließe ich diese Lücke, indem ich Methoden der klassischen Entwurfsautomatisierung auf den Quantenbereich übertrage---und damit die essenzielle Softwareschicht schaffe, die Quantenhardware nutzbar macht.
+Meine Beiträge umfassen Simulationsmethoden auf Basis von Entscheidungsdiagrammen, die Rechenzeiten von Tagen auf Minuten reduzieren, automatisierte und optimierte Kompilierungsmethoden für verschiedene Hardware-Plattformen, auf MLIR basierende Compiler-Infrastruktur sowie effiziente und skalierbare Verifikation.
+Ich verantworte die Entwicklung des \emph{Munich Quantum Toolkit (MQT)} und des \emph{Munich Quantum Software Stack (MQSS)} einschließlich QDMI---einem sich etablierenden De-facto-Standard für interoperable Quantenhardware-Integration---und stelle sicher, dass leistungsfähige Quantenprozessoren in Hochleistungsrechenzentren integriert und von Endanwender:innen genutzt werden können.
+Meine Arbeit umfasst den gesamten Quanten-Software-Stack: von effizienten Datenstrukturen und Simulation über Kompilierung und Verifikation bis hin zur hybriden Ausführung.
+
+Ich habe über 80 Publikationen in führenden Fachzeitschriften und Konferenzen veröffentlicht, darunter IEEE TCAD, ACM TQC, DAC, DATE, ICCAD, QCE und SC. Eine vollständige Publikationsliste finden Sie unter \url{https://www.cda.cit.tum.de/team/burgholzer/}.
+
+\section{Open-Source-Software}
+Ich bin ein überzeugter Verfechter offener Wissenschaft. Alle in meiner Forschung entwickelten Methoden werden als Teil des \emph{Munich Quantum Toolkit (MQT)} (\url{https://github.com/munich-quantum-toolkit}) veröffentlicht und bilden ein umfassendes Open-Source-Ökosystem für Quanten-Software.
+Diese Werkzeuge sind auf Leistung (C++) und Benutzerfreundlichkeit (Python) ausgelegt und ermöglichen Tausenden Forschenden und Entwickelnden weltweit die Entwicklung von Quantenanwendungen.
+Das MQT ist mit \textbf{4,6 Millionen Downloads} auf PyPI und \textbf{1,4k Stars} auf GitHub zu einem festen Bestandteil der Community geworden (Stand November 2026).
+Die Werkzeuge integrieren sich nativ in IBM Qiskit, Xanadus PennyLane und \texttt{jeff}; sie werden an HPC-Zentren in Europa und darüber hinaus eingesetzt, darunter am Leibniz-Rechenzentrum (LRZ) und am Oak Ridge National Laboratory, und bilden das technologische Rückgrat von MQSC.
+
+Eine vollständige Liste der Beiträge finden Sie unter \url{https://github.com/burgholzer}.
+
+\nocite{
+	burgholzerAdvancedEquivalenceChecking2021,burgholzerCharacteristicsReversibleCircuits2022,burgholzerEfficientConstructionFunctional2021,burgholzerHandlingNonunitariesQuantum2022,burgholzerHybridSchrodingerFeynmanSimulation2021,burgholzerLimitingSearchSpace2022,burgholzerImprovedDDbasedEquivalence2020,burgholzerPowerSimulationEquivalence2020,burgholzerQCECJKQTool2021,burgholzerRandomStimuliGeneration2021,burgholzerSimulationPathsQuantum2022,burgholzerVerifyingResultsIBM2020,burgholzerExploitingArbitraryPaths2022,burgholzerExploitingReversibleComputing2023,pehamEquivalenceCheckingParadigms2022,pehamEquivalenceCheckingParameterized2023,pehamEquivalenceCheckingQuantum2022,pehamOptimalSubarchitecturesQuantum2023,quetschlichAutomatedFrameworkRealizing2023,quetschlichCompilerOptimizationQuantum2023,schneiderSATEncodingOptimal2023,adarshSyReCSynthesizerMQT2022,berentSoftwareToolsDecoding2023,berentSATEncodingQuantum2022,willeBasisDesignTools2022,willeDecisionDiagramsQuantum2023,willeEfficientCorrectCompilation2020,willeJKQJKUTools2020,willeMQTQMAPEfficient2023,willeMappingQuantumCircuits2019,willeToolsQuantumComputing2022,willeVerificationQuantumCircuits2022,willeVisualizingDecisionDiagrams2021,hillmichReorderingDecisionDiagrams2022,grurlArraysVsDecision2020,burgholzerExploitingReversibleComputing2023,poggelRecommendingSolutionPaths2023, quetschlichMQTBenchBenchmarking2023,quetschlichReducingCompilationTime2023,quetschlichPredictingGoodQuantum2023,sanderHamiltonianSimulationDecision2023,pehamDepthoptimalSynthesisClifford2023,pehamOptimalSubarchitecturesQuantum2023,quetschlichHybridClassicalQuantum2023,burgholzerDesignAutomationTools2023,quetschlichApplicationawareQuantumCircuit2024,berentDecodingQuantumColor2024,burgholzerTensorNetworksDecision2023,quetschlichMQTPredictorAutomatic2024,sanderStrippingQuantumDecision2024,jiangFlatDDHighPerformanceQuantum2024,stadeAbstractModelEfficient2024,willeQDMIQuantumDevice2024,stadeOptimalStatePreparation2025,stadeTowardsSupportingQIR2025,matoMQTQuditsSoftware2024,prr_2025_1,mqt,burgholzer2025MQTCore,berentDecodingQuantumColor2024,burgholzer2025ForwardBackward,herzogJointCutting2025,kayaSoftwarePlatformSupport2024,qce_2025_1,qsw_2025_1,scws2025_1,date_2026_3,date_2026_2,sca_hpcasia_2026_1,sca_hpcasia_2026_2}
+
+%\printbibliography
+\end{document}
+
+
+%% end of file `template.tex'.

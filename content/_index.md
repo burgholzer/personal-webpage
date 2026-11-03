@@ -12,7 +12,7 @@ design:
 sections:
   - block: biography
     content:
-      # The user's folder name in content/authors/
+      # The profile filename in data/authors/
       username: admin
     design:
       biography:

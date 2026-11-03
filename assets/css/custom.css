@@ -3,7 +3,7 @@
     padding-bottom: 0;
 }
 
-.blox-resume-biography .network-icon li {
+.resume-biography .network-icon li {
     margin-right: 2rem;
 }
 
@@ -31,5 +31,27 @@ html.dark #page-bg {
 @media (prefers-reduced-motion: reduce) {
     #page-bg {
         animation: none;
+    }
+}
+
+.resume-biography img[alt^="Cover of Design Automation"] {
+    display: block;
+    width: 180px;
+    max-width: 100%;
+    margin: 2rem auto 0;
+}
+
+.resume-biography .bio-text p:has(a[href="https://tidd.ly/4fx1Ndp"]) {
+    text-align: center;
+}
+
+@media (max-width: 640px) {
+    .resume-biography .bio-text {
+        padding-inline: 1rem;
+        text-align: left !important;
+    }
+
+    .resume-biography .network-icon li {
+        margin-right: 1rem;
     }
 }

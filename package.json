@@ -1,11 +1,14 @@
 {
   "private": true,
   "engines": {
-    "node": ">=22"
+    "node": ">=24"
   },
   "devDependencies": {
-    "@tailwindcss/cli": "^4.3.0",
-    "@tailwindcss/typography": "^0.5.19",
-    "tailwindcss": "^4.3.0"
+    "@tailwindcss/cli": "^4.3.4",
+    "@tailwindcss/typography": "^0.5.20",
+    "tailwindcss": "^4.3.4"
+  },
+  "overrides": {
+    "postcss-selector-parser": "^6.1.5"
   }
 }

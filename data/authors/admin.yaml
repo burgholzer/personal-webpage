@@ -1,0 +1,63 @@
+title: Lukas Burgholzer
+role: Co-Founder & CTO @ MQSC | Senior Researcher in Quantum Computing @ TUM
+interests:
+- Quantum-Computing
+- Design-Automation
+- Software-Engineering
+- Open-Source-Development
+education:
+  courses:
+  - course: Doctorate Degree (PhD) in Computer Science
+    institution: Johannes Kepler University Linz
+    year: 2023
+  - course: Bachelor's Degree (BSc) in Computer Science
+    institution: Johannes Kepler University Linz
+    year: 2019
+  - course: Master's Degree (Dipl.-Ing.) in Industrial Mathematics
+    institution: Johannes Kepler University Linz
+    year: 2018
+  - course: Bachelor's Degree (BSc) in Mathematics
+    institution: Johannes Kepler University Linz
+    year: 2016
+superuser: true
+status:
+  icon: ⚛️
+last_name: Burgholzer
+first_name: Lukas
+email: lukas@mq.sc
+affiliations:
+- name: Munich Quantum Software Company GmbH
+  url: https://mq.sc
+- name: Chair for Design Automation, Technical University of Munich
+  url: https://www.cda.cit.tum.de/
+links:
+- icon: at-symbol
+  url: mailto:lukas@mq.sc
+  label: E-mail Me
+- icon: brands/github
+  url: https://github.com/burgholzer
+- icon: brands/x
+  url: https://twitter.com/BurgholzerLukas
+- icon: brands/linkedin
+  url: https://www.linkedin.com/in/lukas-burgholzer-7a1741a7/
+- icon: brands/google-scholar
+  url: https://scholar.google.com/citations?user=MxVlYjcAAAAJ
+- icon: brands/orcid
+  url: https://orcid.org/0000-0003-4699-1316
+- icon: brands/discord
+  url: https://discordapp.com/users/burgberg
+- icon: academicons/cv
+  url: uploads/resume.pdf
+  label: Download my resume
+bio: |
+  Lukas Burgholzer is CTO and co-founder of MQSC and a Senior Researcher at the Technical University of Munich’s Chair
+  for Design Automation. He received his PhD in Computer Science from Johannes Kepler University Linz in 2023. His
+  work spans the quantum computing software stack, from simulation, compilation, and verification to HPCQC
+  integration. He oversees the development of the Munich Quantum Toolkit (MQT) and the Munich Quantum Software Stack
+  (MQSS), and is a lead developer and maintainer of the Quantum Device Management Interface (QDMI), an emerging de
+  facto standard for interoperable quantum-hardware integration. He has published 80+ papers, with over 3,000 citations
+  and an h-index of 31 (as of November 2026). His work has received, among others, the EuroTech Rising Stars Award in Innovation, the Bavarian High-Tech Young Talent Award, and the EDAA Outstanding Dissertation Award.
+
+  ![Cover of Design Automation Tools and Software for Quantum Computing, by Lukas Burgholzer and Robert Wille](/uploads/mqt-book.jpg)
+
+  [Discover the MQT Book](https://tidd.ly/4fx1Ndp) · [About the book](https://link.springer.com/book/10.1007/978-3-032-06770-8)
